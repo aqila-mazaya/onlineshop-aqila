@@ -12,7 +12,8 @@ background: linear-gradient(rgb(161, 207, 228));
 
 .main {
   text-align: center;
-  padding: 20px;
+  padding: 40px;
+  border-radius: 10px;
   background: linear-gradient(rgb(161, 207, 228));
 }
  .btn {background-image: linear-gradient(to right, #788dbb 0%, #f6f5fc  51%, #b1daf1  100%)}
@@ -26,24 +27,39 @@ background: linear-gradient(rgb(161, 207, 228));
             color: rgb(252, 252, 252);            
             box-shadow: 0 0 20px #f0eded;
             border-radius: 10px;
-            display: flexbox;
+            display: inline-block;
           }
- 
-.cort {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: 100px;
-  margin-right: 100px;
-}
-.yas {
+
+ .ai {
   text-align: center;
   padding: 20px;
-  background: white;
+  background: rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgb(245, 236, 223);
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+ }         
+ .cort {
+   text-align: center;
+  padding: 20px;
+  background: #f0eded;
   border-radius: 10px;
   box-shadow: 0 4px 6px blanchedalmond;
   margin-top: 20px;
   margin-right: 20px;
+  margin-left: 20px;
+}
+
+.yas {
+  text-align: center;
+  padding: 20px;
+  background: #f0eded;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px blanchedalmond;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 .sek {
   text-align: center;
