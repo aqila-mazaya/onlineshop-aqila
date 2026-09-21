@@ -1,7 +1,7 @@
 <script setup>
 import ProductCard from '../components/ProductCard.vue'
 const daftarProduk = [
- { id: 1, nama: 'Seragam Sekolah', harga: 1700000000000500000, gambar:
+ { id: 1, nama: 'Seragam Sekolah', harga: 17500000, gambar:
 'https://i.pinimg.com/736x/97/52/7d/97527da643d68f48147ecb0762b53820.jpg' },
  { id: 2, nama: 'Buku Sekolah', harga: 4300000, gambar:
 'https://i.pinimg.com/736x/c9/db/7d/c9db7d558d48d1206df96ede7204f066.jpg' },
@@ -26,9 +26,9 @@ const daftarProduk = [
  </main>
 </template>
 <style scoped>
-.grid {
+/* .grid {
  display: flex;
  gap: 16px;
  flex-wrap: wrap;
-}
+} */
 </style>

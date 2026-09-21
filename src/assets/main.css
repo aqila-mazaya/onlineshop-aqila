@@ -4,7 +4,7 @@ body{
   font-family: "arial", sans-serif;
   background: rgb(110, 144, 160);
 }
-.main1 {
+ /* .main1 {
 text-align: center;
 padding: 20px;
 background: linear-gradient(rgb(161, 207, 228));
@@ -40,15 +40,14 @@ background: linear-gradient(rgb(161, 207, 228));
   margin-right: 20px;
   margin-left: 20px;
  }         
- .cort {
-   text-align: center;
-  padding: 20px;
-  background: #f0eded;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px blanchedalmond;
-  margin-top: 20px;
-  margin-right: 20px;
-  margin-left: 20px;
+
+.cort {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  gap: 15px;
 }
 
 .yas {
@@ -63,11 +62,11 @@ background: linear-gradient(rgb(161, 207, 228));
 }
 .sek {
   text-align: center;
-  padding: 20px;
+  padding: 10px;
   background: #f0eded;
   border-radius: 10px;
   box-shadow: 0 4px 6px blanchedalmond;
-  margin-top: 20px;
-  margin-right: 20px;
-  margin-left: 20px;
-}
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+}  */
