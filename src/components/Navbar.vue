@@ -1,5 +1,5 @@
 <template>
-    <div class="h-14 bg-linear-to-t from-slate-400 to-olive-400">
+    <div class="h-14 bg-linear-to-t from-lime-50 to-taupe-200">
  <nav>
  <h2>Sunfloo - Onlineshop</h2>
  <RouterLink to="/">Landing</RouterLink> |
