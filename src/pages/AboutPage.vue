@@ -17,34 +17,31 @@
       ]
     </script>
 <template>
-  <div class="about-page">
-    <section class="banner">
+  <div class="po">
+    <section class="m-10 text-[20pt] font-serif text-yellow-800">
     <h1>tentang kami</h1>
     <p>ayo kenali tentang kami</p>
     </section>
 
-    <section class="story">
-      <div class="text">
+    <section class="m-10 text-[15pt] font-serif text-yellow-800">
+      <div class="">
         <h2>cerita kami</h2>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-           Voluptatibus rem praesentium nulla animi nam quis molestias voluptatem itaque minima!
-           Fuga ad minima aperiam perspiciatis laboriosam quo quibusdam accusantium illum. Dolores!</p>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-           Amet consequuntur iusto mollitia illum exercitationem hic nostrum suscipit quasi
-           doloremque cumque ipsa nihil sed eveniet, et aliquam reprehenderit a doloribus deleniti.</p>
+        <p class="max-w-xs">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore, nobis. Est maxime libero, magni odit velit laudantium veritatis delectus mollitia laboriosam dolore ducimus cupiditate illo esse sint omnis amet culpa. </p>
       </div>
 
-      <div class="image">
-        <div class="image-placeholder">
-         <img src="https://i.pinimg.com/736x/42/d4/9b/42d49ba494e44110cf95ffea9fc3a59d.jpg" alt="image">
+      <div class="flex justify-end">
+        <div class="image-placeholder items-start">
+         <img src="https://i.pinimg.com/736x/42/d4/9b/42d49ba494e44110cf95ffea9fc3a59d.jpg" alt="image" class="w-130 h-130 rounded-lg">
         </div>
       </div>
     </section>
 
-    <section class="team">
+  <section class="m-10 text-[15pt] font-serif text-yellow-800">
+    <div>
       <h2>tim kami</h2>
       <p class="team-description">berkenalan dengan anggota kami yang bekerja sama untuk mengembangkan toko kami</p> 
-      
+    </div>
+
   <div class="team-list">
     <TeamCard
       v-for="anggota in daftarTim"

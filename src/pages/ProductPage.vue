@@ -6,7 +6,7 @@ const daftarProduk = [
    'https://i.pinimg.com/736x/97/52/7d/97527da643d68f48147ecb0762b53820.jpg' },
   { id: 2, nama: 'Buku Sekolah', harga: 4300000, gambar:
    'https://i.pinimg.com/736x/c9/db/7d/c9db7d558d48d1206df96ede7204f066.jpg' },
-  { id: 3, nama: 'Tas Sekolah', harga: 1900000, gambar:
+  { id: 3, nama: 'Tas Sekolah', harga: 2900000, gambar:
    'https://i.pinimg.com/736x/6a/2a/5d/6a2a5d32d5ac432dfe3d5245edbb075b.jpg' },
   { id: 4, nama: 'Sepatu Sekolah', harga: 3400000, gambar:
   'https://i.pinimg.com/736x/9c/44/51/9c4451fe7dab6f644c29f878d4b6fff5.jpg' },
@@ -15,7 +15,7 @@ const daftarProduk = [
 
 <template>
   <main>
-    <h1 class=" mb-10 hero bg-yellow-100 p-[50px] flex flex-col items-center text-center gap[10px] text-[30pt] text-center text-yellow-800 font-serif">produk kami bisa dilihat disini</h1>
+    <h1 class=" mb-10 hero bg-yellow-100 p-[50px] flex flex-col items-center text-center gap[10px] text-[30pt] text-center text-yellow-800 font-serif rounded-lg">produk kami bisa dilihat disini</h1>
 
     <div class="grid">
       <ProductCard
@@ -38,6 +38,4 @@ main {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
 }
-
-
 </style>

@@ -4,12 +4,11 @@
     <section class="hero bg-yellow-100 p-[100px] flex flex-col items-center text-center gap-[18px]">
       <h1 class="text-[58pt] text-center text-yellow-800 font-serif">hello welcome in sunflower online shop</h1>
       <p class="text-[20pt] text-yellow-800 font-serif">mari mari menghamburkan uang</p>
-
+      
       <router-link
-        to="/product"
-        class="mt-10 mb-10 inline-block rounded-full bg-white px-8 py-3 text-lg font-serif text-yellow-800 transition duration-150 hover:bg-lime-50 active:scale-95 md:text-xl"> yukss </router-link>
-    
-
+      to="/product"
+      class="mt-10 mb-10 inline-block rounded-full bg-white px-8 py-3 text-lg font-serif text-yellow-800 transition duration-150 hover:bg-lime-50 active:scale-95 md:text-xl"> yukss </router-link>
+      
       <div class="flex justify-center">
         <video controls width="480" muted loop>
           <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" />
