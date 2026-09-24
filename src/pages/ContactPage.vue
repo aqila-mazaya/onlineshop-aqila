@@ -1,7 +1,7 @@
 <script setup></script>
 <template>
     <div class="yy">
-    <section class="banner">
+    <section class="text-center">
       <h1>hubungi aja</h1>
     </section>
     <section class="contact">

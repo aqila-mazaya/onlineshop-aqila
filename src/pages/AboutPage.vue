@@ -39,7 +39,7 @@
   <section class="m-10 text-[15pt] font-serif text-yellow-800">
     <div>
       <h2 class="text-center">tim kami</h2>
-      <p class="team-description">berkenalan dengan anggota kami yang bekerja sama untuk mengembangkan toko kami</p> 
+      <p class="text-center">berkenalan dengan anggota kami yang bekerja sama untuk mengembangkan toko kami</p> 
     </div>
   </section>
 

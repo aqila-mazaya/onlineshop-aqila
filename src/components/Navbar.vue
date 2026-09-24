@@ -1,11 +1,13 @@
 <template>
     <div class="h-14 bg-linear-to-t from-lime-50 to-taupe-200">
  <nav>
- <h2>Sunfloo - Onlineshop</h2>
- <RouterLink to="/">Landing</RouterLink> |
- <RouterLink to="/product">Product</RouterLink> |
- <RouterLink to="/about">About</RouterLink> |
- <RouterLink to="/contact">Contact</RouterLink>
+<section class="text-right font-bold">
+    <h2>Sunfloo - Onlineshop</h2>
+    <RouterLink to="/">Landing</RouterLink> |
+    <RouterLink to="/product">Product</RouterLink> |
+    <RouterLink to="/about">About</RouterLink> |
+    <RouterLink to="/contact">Contact</RouterLink>
+</section>
  </nav>
  <hr /></div>
 </template>
