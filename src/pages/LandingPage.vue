@@ -2,7 +2,7 @@
   <div class="landing">
 
     <section class="hero bg-yellow-100 p-[100px] flex flex-col items-center text-center gap-[18px]">
-      <h1 class="text-[58pt] text-center text-yellow-800 font-serif">heo welcome in sunflower online shop</h1>
+      <h1 class="text-[58pt] text-center text-yellow-800 font-serif">hello welcome in sunflower online shop</h1>
       <p class="text-[20pt] text-yellow-800 font-serif">mari mari menghamburkan uang</p>
       
       <router-link

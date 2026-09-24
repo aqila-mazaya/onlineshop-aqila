@@ -23,13 +23,13 @@
     <p>ayo kenali tentang kami</p>
     </section>
 
-    <section class="m-10 text-[15pt] font-serif text-yellow-800">
+    <section class="m-10 text-[15pt] font-serif text-yellow-800 flex">
       <div class="">
         <h2>cerita kami</h2>
         <p class="max-w-xs">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore, nobis. Est maxime libero, magni odit velit laudantium veritatis delectus mollitia laboriosam dolore ducimus cupiditate illo esse sint omnis amet culpa. </p>
       </div>
 
-      <div class="flex justify-end">
+      <div class="">
         <div class="image-placeholder items-start">
          <img src="https://i.pinimg.com/736x/42/d4/9b/42d49ba494e44110cf95ffea9fc3a59d.jpg" alt="image" class="w-130 h-130 rounded-lg">
         </div>
