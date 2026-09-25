@@ -1,7 +1,7 @@
 <script setup></script>
 <template>
     <div class="yy">
-    <section class="text-center font-mono text-[20pt] text-yellow-800">
+    <section class="text-center">
       <h1>hubungi aja</h1>
     </section>
     <section class="contact">
