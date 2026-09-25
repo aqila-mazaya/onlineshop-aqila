@@ -15,7 +15,7 @@ const daftarProduk = [
 
 <template>
   <main>
-    <h1 class=" mb-10 hero bg-yellow-100 p-[50px] flex flex-col items-center text-center gap[10px] text-[30pt] text-center text-yellow-800 font-serif rounded-lg">produk kami bisa dilihat disini</h1>
+    <h1 class=" mb-10 hero bg-yellow-100 p-[50px] flex flex-col items-center text-center text-[30pt] text-yellow-800 font-serif rounded-lg">produk kami bisa dilihat disini</h1>
 
     <div class="grid">
       <ProductCard

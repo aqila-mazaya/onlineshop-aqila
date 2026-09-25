@@ -17,30 +17,32 @@
       ]
     </script>
 <template>
-  <div class="po">
-    <section class="m-10 text-[20pt] font-serif text-yellow-800">
-    <h1>tentang kami</h1>
-    <p>ayo kenali tentang kami</p>
-    </section>
 
-    <section class="m-10 text-[15pt] font-serif text-yellow-800 flex">
-      <div class="">
-        <h2>cerita kami</h2>
-        <p class="max-w-xs">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore, nobis. Est maxime libero, magni odit velit laudantium veritatis delectus mollitia laboriosam dolore ducimus cupiditate illo esse sint omnis amet culpa. </p>
-      </div>
+  <section class="m-6 text-[15pt] font-serif text-yellow-800 flex ">
 
-      <div class="">
-        <div class="image-placeholder items-start">
-         <img src="https://i.pinimg.com/736x/42/d4/9b/42d49ba494e44110cf95ffea9fc3a59d.jpg" alt="image" class="w-130 h-130 rounded-lg">
-        </div>
-      </div>
-    </section>
+  <div>
+  <div class="m-10 text-[20pt] font-serif text-yellow-800">
+  <h1>tentang kami</h1>
+  <p>ayo kenali tentang kami</p>
+  </div>
+  <div class="m-10 text-[15pt] font-serif text-yellow-800">
+  <p class="max-w-xs">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore, nobis. Est maxime libero, magni odit velit laudantium veritatis delectus mollitia laboriosam dolore ducimus cupiditate illo esse sint omnis amet culpa. </p>
+  </div>
+  </div>
+  
+  <div class="m-12">
+  <div class="image-placeholder items-start">
+  <img src="https://i.pinimg.com/736x/42/d4/9b/42d49ba494e44110cf95ffea9fc3a59d.jpg" alt="image" class="w-130 h-130 rounded-lg">
+  </div>
+  </div>
+  </section>
 
   <section class="m-10 text-[15pt] font-serif text-yellow-800">
-    <div>
-      <h2>tim kami</h2>
-      <p class="team-description">berkenalan dengan anggota kami yang bekerja sama untuk mengembangkan toko kami</p> 
-    </div>
+  <div>
+  <h2 class="text-center">tim kami</h2>
+  <p class="text-center">berkenalan dengan anggota kami yang bekerja sama untuk mengembangkan toko kami</p> 
+  </div>
+  </section>
 
   <div class="team-list">
     <TeamCard
@@ -49,8 +51,7 @@
       :nama="anggota.nama"
       :jabatan="anggota.jabatan" />
       </div>
-  </section>
-  </div>
+
 </template>
 
 

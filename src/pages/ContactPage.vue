@@ -1,17 +1,19 @@
 <script setup></script>
 <template>
     <div class="yy">
-    <section class="banner">
+    <section class="text-center font-mono text-[20pt] text-yellow-800">
       <h1>hubungi aja</h1>
     </section>
     <section class="contact">
-    <div class="info-kontak">
-      <h2>info kontak</h2>
+    <div class="m-10 font-sherif text-[18px]">
+      <h2 class="text-left font-mono text-yellow-800 text-[20px]">info kontak</h2>
       <P>🗺 Jl.Justapayggaenaks</P>
       <p>📱 0243-2206-5866</p>
       <p>📬 @hcjdhakpiks_</p>
       <p>🗓 buka senin-kamis, 11.00-15.00</p>
     </div>
+    </section>
+
     <div class="formulir">
       <h2>ada pesan?</h2>
     <form>
@@ -31,7 +33,7 @@
       <button type="button">kirim</button>
     </form>
     </div>
-    </section>
+
     </div>
 </template>
 
