@@ -18,7 +18,7 @@
     </script>
 <template>
   <div class="po">
-    <section class="m-10 text-[20pt] font-serif text-yellow-800">
+    <section class="m-10 text-center text-[20pt] font-serif text-yellow-800">
     <h1>tentang kami</h1>
     <p>ayo kenali tentang kami</p>
     </section>
